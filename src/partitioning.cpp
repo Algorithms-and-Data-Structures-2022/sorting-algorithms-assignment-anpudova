@@ -34,7 +34,6 @@ namespace assignment {
     } else {
       return stop;
     }
-
   }
 
   int partition(std::vector<int>& arr, int start, int stop, int pivot) {

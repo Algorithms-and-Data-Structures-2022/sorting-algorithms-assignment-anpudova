@@ -26,6 +26,7 @@ namespace assignment {
         buf[buf_offset] = arr[right_offset];
         right_offset++;
       }
+
       // перемещаем текущую позицию вставки в буфер
       buf_offset += 1;
     }

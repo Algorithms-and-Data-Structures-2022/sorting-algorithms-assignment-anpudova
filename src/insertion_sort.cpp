@@ -17,7 +17,7 @@ namespace assignment {
       }
     }
 
-    return index;  // здесь что-то не так ...
+    return index;
   }
 
   int binary_search(const std::vector<int>& arr, int index) {

@@ -16,7 +16,6 @@ namespace assignment {
     if (start >= stop) {
       return;
     }
-
     // вычисляем индекс опорного элемента ... median_of_three ...
     int pivot_index = median_of_three(arr, start, stop);
     int temp = partition(arr, start, stop, pivot_index);

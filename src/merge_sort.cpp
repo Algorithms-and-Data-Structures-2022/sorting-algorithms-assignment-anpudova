@@ -19,7 +19,6 @@ namespace assignment {
     if (start >= stop) {
       return;
     }
-
     // вычисляем индекс середины области
     const int middle = middle_of(start, stop);
 

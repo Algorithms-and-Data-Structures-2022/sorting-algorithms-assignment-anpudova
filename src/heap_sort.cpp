@@ -28,7 +28,6 @@ namespace assignment {
       Heapify(arr, size, i);
     }
 
-    // Напишите здесь свой код ...
   }
 
   void HeapSort::Heapify(std::vector<int>& arr, int heap_size, int index) {
