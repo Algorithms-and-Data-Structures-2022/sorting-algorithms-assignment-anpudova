@@ -38,7 +38,7 @@ namespace assignment {
     }
 
     // реализуйте сливание остатков правого подмассива ...
-    for (/* ... */; right_offset <= middle; right_offset++) {
+    for (/* ... */; right_offset <= stop; right_offset++) {
       buf[buf_offset] = arr[right_offset];
       buf_offset += 1;
     }

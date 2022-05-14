@@ -70,7 +70,7 @@ namespace assignment {
     std::swap(arr[curr_pivot_index], arr[stop]);
 
     // возвращаем индекс опорного элемента
-    return -1 /* здесь что-то не так ... */;
+    return curr_pivot_index; /* здесь что-то не так ... */;
   }
 
 }  // namespace assignment
